@@ -1,0 +1,1571 @@
+{
+    "menu": [
+        {
+            "categoryId": 0,
+            "products": [
+                {
+                    "id": 101,
+                    "name": "Пепперони",
+                    "description": "Томатный соус, пикантная пепперони, моцарелла",
+                    "size": "Средняя 30 см, традиционное тесто",
+                    "price": 700,
+                    "image": "cheese_pepperoni",
+                    "modificators": {
+                        "modificatorsToAdd": [],
+                        "modificatorsAvailableToAdd": [
+                            {
+                                "id": 1,
+                                "name": "Сырный бортик",
+                                "price": 179,
+                                "image": "cheese-side",
+                            },
+                            {
+                                "id": 2,
+                                "name": "Моцарела",
+                                "price": 79,
+                                "image": "mozzarella",
+                            },
+                            {
+                                "id": 3,
+                                "name": "Чеддер и пармезан",
+                                "price": 59,
+                                "image": "cheddar",
+                            },
+                            {
+                                "id": 4,
+                                "name": "Острый халапеньо",
+                                "price": 79,
+                                "image": "jalapeno",
+                            },
+                            {
+                                "id": 5,
+                                "name": "Нежный цепленок",
+                                "price": 59,
+                                "image": "chicken",
+                            },
+                            {
+                                "id": 6,
+                                "name": "Пикатная пепперони",
+                                "price": 79,
+                                "image": "pepperoni",
+                            },
+                            {
+                                "id": 7,
+                                "name": "Шампиньоны",
+                                "price": 25,
+                                "image": "mushrooms",
+                            },
+                            {
+                                "id": 8,
+                                "name": "Ветчина",
+                                "price": 59,
+                                "image": "ham",
+                            },
+                            {
+                                "id": 9,
+                                "name": "Маринованные огурчики",
+                                "price": 35,
+                                "image": "cucumber",
+                            },
+                            {
+                                "id": 10,
+                                "name": "Хустящий бекон",
+                                "price": 59,
+                                "image": "bacon",
+                            },
+                            {
+                                "id": 11,
+                                "name": "Свежие томаты",
+                                "price": 59,
+                                "image": "tomate",
+                            },
+                            {
+                                "id": 12,
+                                "name": "Острая чоризо",
+                                "price": 89,
+                                "image": "chorizzo",
+                            },
+                            {
+                                "id": 13,
+                                "name": "Брынза",
+                                "price": 39,
+                                "image": "cheese",
+                            },
+                            {
+                                "id": 14,
+                                "name": "Сыр блю чиз",
+                                "price": 59,
+                                "image": "blue-cheese",
+                            },
+                            {
+                                "id": 15,
+                                "name": "Красный лук",
+                                "price": 59,
+                                "image": "red-onion",
+                            },
+                            {
+                                "id": 16,
+                                "name": "Итальянские травы",
+                                "price": 59,
+                                "image": "italian-herbs",
+                            },
+                            {
+                                "id": 17,
+                                "name": "Ананасы",
+                                "price": 19,
+                                "image": "pineapples",
+                            },
+                            {
+                                "id": 18,
+                                "name": "Сладкий перец",
+                                "price": 19,
+                                "image": "bell-pepper",
+                            },
+                            {
+                                "id": 19,
+                                "name": "Маслины",
+                                "price": 19,
+                                "image": "olives",
+                            },
+                            {
+                                "id": 20,
+                                "name": "Митболы",
+                                "price": 89,
+                                "image": "meatballs",
+                            },
+                        ],
+                    },
+                    "nutrients": [
+                        {
+                            "name": "Пищевая ценность",
+                            "value": "285,9 ккал",
+                        },
+                        {
+                            "name": "Белки",
+                            "value": "9,4 г",
+                        },
+                        {
+                            "name": "Жиры",
+                            "value": "14,2 г",
+                        },
+                        {
+                            "name": "Углеводы",
+                            "value": "28,3 г",
+                        },
+                    ]
+                },
+                {
+                    "id": 102,
+                    "name": "Сырный цыпленок",
+                    "description": "Цыпленок, моцарелла, сыры чеддер и пармезан, сырный соус, томаты, соус альфредо, чеснок",
+                    "size": "Средняя 30 см, традиционное тесто",
+                    "price": 500,
+                    "image": "cheese_chicken",
+                    "modificators": {
+                        "modificatorsToAdd": [],
+                        "modificatorsAvailableToAdd": [
+                            {
+                                "id": 1,
+                                "name": "Сырный бортик",
+                                "price": 179,
+                                "image": "cheese-side",
+                            },
+                            {
+                                "id": 2,
+                                "name": "Моцарела",
+                                "price": 79,
+                                "image": "mozzarella",
+                            },
+                            {
+                                "id": 3,
+                                "name": "Чеддер и пармезан",
+                                "price": 59,
+                                "image": "cheddar",
+                            },
+                            {
+                                "id": 4,
+                                "name": "Острый халапеньо",
+                                "price": 79,
+                                "image": "jalapeno",
+                            },
+                            {
+                                "id": 5,
+                                "name": "Нежный цепленок",
+                                "price": 59,
+                                "image": "chicken",
+                            },
+                            {
+                                "id": 6,
+                                "name": "Пикатная пепперони",
+                                "price": 79,
+                                "image": "pepperoni",
+                            },
+                            {
+                                "id": 7,
+                                "name": "Шампиньоны",
+                                "price": 25,
+                                "image": "mushrooms",
+                            },
+                            {
+                                "id": 8,
+                                "name": "Ветчина",
+                                "price": 59,
+                                "image": "ham",
+                            },
+                            {
+                                "id": 9,
+                                "name": "Маринованные огурчики",
+                                "price": 35,
+                                "image": "cucumber",
+                            },
+                            {
+                                "id": 10,
+                                "name": "Хустящий бекон",
+                                "price": 59,
+                                "image": "bacon",
+                            },
+                            {
+                                "id": 11,
+                                "name": "Свежие томаты",
+                                "price": 59,
+                                "image": "tomate",
+                            },
+                            {
+                                "id": 12,
+                                "name": "Острая чоризо",
+                                "price": 89,
+                                "image": "chorizzo",
+                            },
+                            {
+                                "id": 13,
+                                "name": "Брынза",
+                                "price": 39,
+                                "image": "cheese",
+                            },
+                            {
+                                "id": 14,
+                                "name": "Сыр блю чиз",
+                                "price": 59,
+                                "image": "blue-cheese",
+                            },
+                            {
+                                "id": 15,
+                                "name": "Красный лук",
+                                "price": 59,
+                                "image": "red-onion",
+                            },
+                            {
+                                "id": 16,
+                                "name": "Итальянские травы",
+                                "price": 59,
+                                "image": "italian-herbs",
+                            },
+                            {
+                                "id": 17,
+                                "name": "Ананасы",
+                                "price": 19,
+                                "image": "pineapples",
+                            },
+                            {
+                                "id": 18,
+                                "name": "Сладкий перец",
+                                "price": 19,
+                                "image": "bell-pepper",
+                            },
+                            {
+                                "id": 19,
+                                "name": "Маслины",
+                                "price": 19,
+                                "image": "olives",
+                            },
+                            {
+                                "id": 20,
+                                "name": "Митболы",
+                                "price": 89,
+                                "image": "meatballs",
+                            },
+                        ],
+                    },
+                    "nutrients": [
+                        {
+                            "name": "Пищевая ценность",
+                            "value": "263,9 ккал",
+                        },
+                        {
+                            "name": "Белки",
+                            "value": "10,4 г",
+                        },
+                        {
+                            "name": "Жиры",
+                            "value": "13,2 г",
+                        },
+                        {
+                            "name": "Углеводы",
+                            "value": "25,3 г",
+                        },
+                    ]
+                },
+                {
+                    "id": 103,
+                    "name": "Дон Бекон",
+                    "description": "Томатный соус, цыпленок филе, пикантная пепперони, красный лук, моцарелла, бекон",
+                    "size": "Средняя 30 см, традиционное тесто",
+                    "price": 189,
+                    "image": "don_bekon",
+                    "modificators": {
+                        "modificatorsToAdd": [],
+                        "modificatorsAvailableToAdd": [
+                            {
+                                "id": 1,
+                                "name": "Сырный бортик",
+                                "price": 179,
+                                "image": "cheese-side",
+                            },
+                            {
+                                "id": 2,
+                                "name": "Моцарела",
+                                "price": 79,
+                                "image": "mozzarella",
+                            },
+                            {
+                                "id": 3,
+                                "name": "Чеддер и пармезан",
+                                "price": 59,
+                                "image": "cheddar",
+                            },
+                            {
+                                "id": 4,
+                                "name": "Острый халапеньо",
+                                "price": 79,
+                                "image": "jalapeno",
+                            },
+                            {
+                                "id": 5,
+                                "name": "Нежный цепленок",
+                                "price": 59,
+                                "image": "chicken",
+                            },
+                            {
+                                "id": 6,
+                                "name": "Пикатная пепперони",
+                                "price": 79,
+                                "image": "pepperoni",
+                            },
+                            {
+                                "id": 7,
+                                "name": "Шампиньоны",
+                                "price": 25,
+                                "image": "mushrooms",
+                            },
+                            {
+                                "id": 8,
+                                "name": "Ветчина",
+                                "price": 59,
+                                "image": "ham",
+                            },
+                            {
+                                "id": 9,
+                                "name": "Маринованные огурчики",
+                                "price": 35,
+                                "image": "cucumber",
+                            },
+                            {
+                                "id": 10,
+                                "name": "Хустящий бекон",
+                                "price": 59,
+                                "image": "bacon",
+                            },
+                            {
+                                "id": 11,
+                                "name": "Свежие томаты",
+                                "price": 59,
+                                "image": "tomate",
+                            },
+                            {
+                                "id": 12,
+                                "name": "Острая чоризо",
+                                "price": 89,
+                                "image": "chorizzo",
+                            },
+                            {
+                                "id": 13,
+                                "name": "Брынза",
+                                "price": 39,
+                                "image": "cheese",
+                            },
+                            {
+                                "id": 14,
+                                "name": "Сыр блю чиз",
+                                "price": 59,
+                                "image": "blue-cheese",
+                            },
+                            {
+                                "id": 15,
+                                "name": "Красный лук",
+                                "price": 59,
+                                "image": "red-onion",
+                            },
+                            {
+                                "id": 16,
+                                "name": "Итальянские травы",
+                                "price": 59,
+                                "image": "italian-herbs",
+                            },
+                            {
+                                "id": 17,
+                                "name": "Ананасы",
+                                "price": 19,
+                                "image": "pineapples",
+                            },
+                            {
+                                "id": 18,
+                                "name": "Сладкий перец",
+                                "price": 19,
+                                "image": "bell-pepper",
+                            },
+                            {
+                                "id": 19,
+                                "name": "Маслины",
+                                "price": 19,
+                                "image": "olives",
+                            },
+                            {
+                                "id": 20,
+                                "name": "Митболы",
+                                "price": 89,
+                                "image": "meatballs",
+                            },
+                        ]
+                    },
+                    "nutrients": [
+                        {
+                            "name": "Пищевая ценность",
+                            "value": "253,9 ккал",
+                        },
+                        {
+                            "name": "Белки",
+                            "value": "8,4 г",
+                        },
+                        {
+                            "name": "Жиры",
+                            "value": "11,2 г",
+                        },
+                        {
+                            "name": "Углеводы",
+                            "value": "29,6 г",
+                        },
+                    ]
+                },
+                {
+                    "id": 104,
+                    "name": "Деревенская",
+                    "description": "Картофель из печи, маринованные огурчики, цыпленок, соус ранч, томаты, красный лук, чеснок, моцарелла, томатный соус",
+                    "size": "Средняя 30 см, традиционное тесто",
+                    "price": 239,
+                    "image": "rustic",
+                    "modificators": {
+                        "modificatorsToAdd": [],
+                        "modificatorsAvailableToAdd": [
+                            {
+                                "id": 1,
+                                "name": "Сырный бортик",
+                                "price": 179,
+                                "image": "cheese-side",
+                            },
+                            {
+                                "id": 2,
+                                "name": "Моцарела",
+                                "price": 79,
+                                "image": "mozzarella",
+                            },
+                            {
+                                "id": 3,
+                                "name": "Чеддер и пармезан",
+                                "price": 59,
+                                "image": "cheddar",
+                            },
+                            {
+                                "id": 4,
+                                "name": "Острый халапеньо",
+                                "price": 79,
+                                "image": "jalapeno",
+                            },
+                            {
+                                "id": 5,
+                                "name": "Нежный цепленок",
+                                "price": 59,
+                                "image": "chicken",
+                            },
+                            {
+                                "id": 6,
+                                "name": "Пикатная пепперони",
+                                "price": 79,
+                                "image": "pepperoni",
+                            },
+                            {
+                                "id": 7,
+                                "name": "Шампиньоны",
+                                "price": 25,
+                                "image": "mushrooms",
+                            },
+                            {
+                                "id": 8,
+                                "name": "Ветчина",
+                                "price": 59,
+                                "image": "ham",
+                            },
+                            {
+                                "id": 9,
+                                "name": "Маринованные огурчики",
+                                "price": 35,
+                                "image": "cucumber",
+                            },
+                            {
+                                "id": 10,
+                                "name": "Хустящий бекон",
+                                "price": 59,
+                                "image": "bacon",
+                            },
+                            {
+                                "id": 11,
+                                "name": "Свежие томаты",
+                                "price": 59,
+                                "image": "tomate",
+                            },
+                            {
+                                "id": 12,
+                                "name": "Острая чоризо",
+                                "price": 89,
+                                "image": "chorizzo",
+                            },
+                            {
+                                "id": 13,
+                                "name": "Брынза",
+                                "price": 39,
+                                "image": "cheese",
+                            },
+                            {
+                                "id": 14,
+                                "name": "Сыр блю чиз",
+                                "price": 59,
+                                "image": "blue-cheese",
+                            },
+                            {
+                                "id": 15,
+                                "name": "Красный лук",
+                                "price": 59,
+                                "image": "red-onion",
+                            },
+                            {
+                                "id": 16,
+                                "name": "Итальянские травы",
+                                "price": 59,
+                                "image": "italian-herbs",
+                            },
+                            {
+                                "id": 17,
+                                "name": "Ананасы",
+                                "price": 19,
+                                "image": "pineapples",
+                            },
+                            {
+                                "id": 18,
+                                "name": "Сладкий перец",
+                                "price": 19,
+                                "image": "bell-pepper",
+                            },
+                            {
+                                "id": 19,
+                                "name": "Маслины",
+                                "price": 19,
+                                "image": "olives",
+                            },
+                            {
+                                "id": 20,
+                                "name": "Митболы",
+                                "price": 89,
+                                "image": "meatballs",
+                            },
+                        ]
+                    },
+                    "nutrients": [
+                        {
+                            "name": "Пищевая ценность",
+                            "value": "233,9 ккал",
+                        },
+                        {
+                            "name": "Белки",
+                            "value": "13,4 г",
+                        },
+                        {
+                            "name": "Жиры",
+                            "value": "9,2 г",
+                        },
+                        {
+                            "name": "Углеводы",
+                            "value": "22,6 г",
+                        },
+                    ]
+                },
+                {
+                    "id": 105,
+                    "name": "Домашняя",
+                    "description": "Пикантная пепперони, ветчина, маринованные огурчики, томаты, моцарелла, томатный соус",
+                    "size": "Средняя 30 см, традиционное тесто",
+                    "price": 500,
+                    "image": "homemade",
+                    "modificators": {
+                        "modificatorsToAdd": [],
+                        "modificatorsAvailableToAdd": [
+                            {
+                                "id": 1,
+                                "name": "Сырный бортик",
+                                "price": 179,
+                                "image": "cheese-side",
+                            },
+                            {
+                                "id": 2,
+                                "name": "Моцарела",
+                                "price": 79,
+                                "image": "mozzarella",
+                            },
+                            {
+                                "id": 3,
+                                "name": "Чеддер и пармезан",
+                                "price": 59,
+                                "image": "cheddar",
+                            },
+                            {
+                                "id": 4,
+                                "name": "Острый халапеньо",
+                                "price": 79,
+                                "image": "jalapeno",
+                            },
+                            {
+                                "id": 5,
+                                "name": "Нежный цепленок",
+                                "price": 59,
+                                "image": "chicken",
+                            },
+                            {
+                                "id": 6,
+                                "name": "Пикатная пепперони",
+                                "price": 79,
+                                "image": "pepperoni",
+                            },
+                            {
+                                "id": 7,
+                                "name": "Шампиньоны",
+                                "price": 25,
+                                "image": "mushrooms",
+                            },
+                            {
+                                "id": 8,
+                                "name": "Ветчина",
+                                "price": 59,
+                                "image": "ham",
+                            },
+                            {
+                                "id": 9,
+                                "name": "Маринованные огурчики",
+                                "price": 35,
+                                "image": "cucumber",
+                            },
+                            {
+                                "id": 10,
+                                "name": "Хустящий бекон",
+                                "price": 59,
+                                "image": "bacon",
+                            },
+                            {
+                                "id": 11,
+                                "name": "Свежие томаты",
+                                "price": 59,
+                                "image": "tomate",
+                            },
+                            {
+                                "id": 12,
+                                "name": "Острая чоризо",
+                                "price": 89,
+                                "image": "chorizzo",
+                            },
+                            {
+                                "id": 13,
+                                "name": "Брынза",
+                                "price": 39,
+                                "image": "cheese",
+                            },
+                            {
+                                "id": 14,
+                                "name": "Сыр блю чиз",
+                                "price": 59,
+                                "image": "blue-cheese",
+                            },
+                            {
+                                "id": 15,
+                                "name": "Красный лук",
+                                "price": 59,
+                                "image": "red-onion",
+                            },
+                            {
+                                "id": 16,
+                                "name": "Итальянские травы",
+                                "price": 59,
+                                "image": "italian-herbs",
+                            },
+                            {
+                                "id": 17,
+                                "name": "Ананасы",
+                                "price": 19,
+                                "image": "pineapples",
+                            },
+                            {
+                                "id": 18,
+                                "name": "Сладкий перец",
+                                "price": 19,
+                                "image": "bell-pepper",
+                            },
+                            {
+                                "id": 19,
+                                "name": "Маслины",
+                                "price": 19,
+                                "image": "olives",
+                            },
+                            {
+                                "id": 20,
+                                "name": "Митболы",
+                                "price": 89,
+                                "image": "meatballs",
+                            },
+                        ]
+                    },
+                    "nutrients": [
+                        {
+                            "name": "Пищевая ценность",
+                            "value": "213,9 ккал",
+                        },
+                        {
+                            "name": "Белки",
+                            "value": "5,4 г",
+                        },
+                        {
+                            "name": "Жиры",
+                            "value": "16,2 г",
+                        },
+                        {
+                            "name": "Углеводы",
+                            "value": "28,6 г",
+                        },
+                    ]
+                },
+                {
+                    "id": 106,
+                    "name": "Маргарита",
+                    "description": "Итальянские травы, томатный соус, томаты, моцарелла",
+                    "size": "Средняя 30 см, традиционное тесто",
+                    "price": 600,
+                    "image": "margarita",
+                    "modificators": {
+                        "modificatorsToAdd": [],
+                        "modificatorsAvailableToAdd": [
+                            {
+                                "id": 1,
+                                "name": "Сырный бортик",
+                                "price": 179,
+                                "image": "cheese-side",
+                            },
+                            {
+                                "id": 2,
+                                "name": "Моцарела",
+                                "price": 79,
+                                "image": "mozzarella",
+                            },
+                            {
+                                "id": 3,
+                                "name": "Чеддер и пармезан",
+                                "price": 59,
+                                "image": "cheddar",
+                            },
+                            {
+                                "id": 4,
+                                "name": "Острый халапеньо",
+                                "price": 79,
+                                "image": "jalapeno",
+                            },
+                            {
+                                "id": 5,
+                                "name": "Нежный цепленок",
+                                "price": 59,
+                                "image": "chicken",
+                            },
+                            {
+                                "id": 6,
+                                "name": "Пикатная пепперони",
+                                "price": 79,
+                                "image": "pepperoni",
+                            },
+                            {
+                                "id": 7,
+                                "name": "Шампиньоны",
+                                "price": 25,
+                                "image": "mushrooms",
+                            },
+                            {
+                                "id": 8,
+                                "name": "Ветчина",
+                                "price": 59,
+                                "image": "ham",
+                            },
+                            {
+                                "id": 9,
+                                "name": "Маринованные огурчики",
+                                "price": 35,
+                                "image": "cucumber",
+                            },
+                            {
+                                "id": 10,
+                                "name": "Хустящий бекон",
+                                "price": 59,
+                                "image": "bacon",
+                            },
+                            {
+                                "id": 11,
+                                "name": "Свежие томаты",
+                                "price": 59,
+                                "image": "tomate",
+                            },
+                            {
+                                "id": 12,
+                                "name": "Острая чоризо",
+                                "price": 89,
+                                "image": "chorizzo",
+                            },
+                            {
+                                "id": 13,
+                                "name": "Брынза",
+                                "price": 39,
+                                "image": "cheese",
+                            },
+                            {
+                                "id": 14,
+                                "name": "Сыр блю чиз",
+                                "price": 59,
+                                "image": "blue-cheese",
+                            },
+                            {
+                                "id": 15,
+                                "name": "Красный лук",
+                                "price": 59,
+                                "image": "red-onion",
+                            },
+                            {
+                                "id": 16,
+                                "name": "Итальянские травы",
+                                "price": 59,
+                                "image": "italian-herbs",
+                            },
+                            {
+                                "id": 17,
+                                "name": "Ананасы",
+                                "price": 19,
+                                "image": "pineapples",
+                            },
+                            {
+                                "id": 18,
+                                "name": "Сладкий перец",
+                                "price": 19,
+                                "image": "bell-pepper",
+                            },
+                            {
+                                "id": 19,
+                                "name": "Маслины",
+                                "price": 19,
+                                "image": "olives",
+                            },
+                            {
+                                "id": 20,
+                                "name": "Митболы",
+                                "price": 89,
+                                "image": "meatballs",
+                            },
+                        ]
+                    },
+                    "nutrients": [
+                        {
+                            "name": "Пищевая ценность",
+                            "value": "243,9 ккал",
+                        },
+                        {
+                            "name": "Белки",
+                            "value": "15,4 г",
+                        },
+                        {
+                            "name": "Жиры",
+                            "value": "20,2 г",
+                        },
+                        {
+                            "name": "Углеводы",
+                            "value": "25,9 г",
+                        },
+                    ]
+                },
+                {
+                    "id": 107,
+                    "name": "Карбонара",
+                    "description": "Бекон, сыры чеддер и пармезан, моцарелла, томаты, соус альфредо, красный лук, чеснок, итальянские травы",
+                    "size": "Средняя 30 см, традиционное тесто",
+                    "price": 500,
+                    "image": "carbonara",
+                    "modificators": {
+                        "modificatorsToAdd": [],
+                        "modificatorsAvailableToAdd": [
+                            {
+                                "id": 1,
+                                "name": "Сырный бортик",
+                                "price": 179,
+                                "image": "cheese-side",
+                            },
+                            {
+                                "id": 2,
+                                "name": "Моцарела",
+                                "price": 79,
+                                "image": "mozzarella",
+                            },
+                            {
+                                "id": 3,
+                                "name": "Чеддер и пармезан",
+                                "price": 59,
+                                "image": "cheddar",
+                            },
+                            {
+                                "id": 4,
+                                "name": "Острый халапеньо",
+                                "price": 79,
+                                "image": "jalapeno",
+                            },
+                            {
+                                "id": 5,
+                                "name": "Нежный цепленок",
+                                "price": 59,
+                                "image": "chicken",
+                            },
+                            {
+                                "id": 6,
+                                "name": "Пикатная пепперони",
+                                "price": 79,
+                                "image": "pepperoni",
+                            },
+                            {
+                                "id": 7,
+                                "name": "Шампиньоны",
+                                "price": 25,
+                                "image": "mushrooms",
+                            },
+                            {
+                                "id": 8,
+                                "name": "Ветчина",
+                                "price": 59,
+                                "image": "ham",
+                            },
+                            {
+                                "id": 9,
+                                "name": "Маринованные огурчики",
+                                "price": 35,
+                                "image": "cucumber",
+                            },
+                            {
+                                "id": 10,
+                                "name": "Хустящий бекон",
+                                "price": 59,
+                                "image": "bacon",
+                            },
+                            {
+                                "id": 11,
+                                "name": "Свежие томаты",
+                                "price": 59,
+                                "image": "tomate",
+                            },
+                            {
+                                "id": 12,
+                                "name": "Острая чоризо",
+                                "price": 89,
+                                "image": "chorizzo",
+                            },
+                            {
+                                "id": 13,
+                                "name": "Брынза",
+                                "price": 39,
+                                "image": "cheese",
+                            },
+                            {
+                                "id": 14,
+                                "name": "Сыр блю чиз",
+                                "price": 59,
+                                "image": "blue-cheese",
+                            },
+                            {
+                                "id": 15,
+                                "name": "Красный лук",
+                                "price": 59,
+                                "image": "red-onion",
+                            },
+                            {
+                                "id": 16,
+                                "name": "Итальянские травы",
+                                "price": 59,
+                                "image": "italian-herbs",
+                            },
+                            {
+                                "id": 17,
+                                "name": "Ананасы",
+                                "price": 19,
+                                "image": "pineapples",
+                            },
+                            {
+                                "id": 18,
+                                "name": "Сладкий перец",
+                                "price": 19,
+                                "image": "bell-pepper",
+                            },
+                            {
+                                "id": 19,
+                                "name": "Маслины",
+                                "price": 19,
+                                "image": "olives",
+                            },
+                            {
+                                "id": 20,
+                                "name": "Митболы",
+                                "price": 89,
+                                "image": "meatballs",
+                            },
+                        ]
+                    },
+                    "nutrients": [
+                        {
+                            "name": "Пищевая ценность",
+                            "value": "281,9 ккал",
+                        },
+                        {
+                            "name": "Белки",
+                            "value": "20,4 г",
+                        },
+                        {
+                            "name": "Жиры",
+                            "value": "24,2 г",
+                        },
+                        {
+                            "name": "Углеводы",
+                            "value": "24,9 г",
+                        },
+                    ]
+                }
+            ]
+        },
+        {
+            "categoryId": 1,
+            "products": [
+                {
+                    "id": 301,
+                    "name": "Картофель из печи",
+                    "description": "Запеченная в печи картошечка. Привычный вкус и мало масла",
+                    "size": "Большая порция",
+                    "price": 166,
+                    "image": "fries",
+                    "weight": "125 г",
+                    "nutrients": [
+                        {
+                            "name": "Пищевая ценность",
+                            "value": "211,9 ккал",
+                        },
+                        {
+                            "name": "Белки",
+                            "value": "12,4 г",
+                        },
+                        {
+                            "name": "Жиры",
+                            "value": "12,2 г",
+                        },
+                        {
+                            "name": "Углеводы",
+                            "value": "12,9 г",
+                        },
+                    ]
+                },
+                {
+                    "id": 302,
+                    "name": "Куриные кусочки",
+                    "description": "Кусочки куриного филе в хрустящей панировке",
+                    "size": "Большая порция",
+                    "price": 166,
+                    "image": "chicken_pieces",
+                    "weight": "180 г",
+                    "nutrients": [
+                        {
+                            "name": "Пищевая ценность",
+                            "value": "239,4 ккал",
+                        },
+                        {
+                            "name": "Белки",
+                            "value": "12,4 г",
+                        },
+                        {
+                            "name": "Жиры",
+                            "value": "12,2 г",
+                        },
+                        {
+                            "name": "Углеводы",
+                            "value": "12,9 г",
+                        },
+                    ]
+                },
+                {
+                    "id": 303,
+                    "name": "Ланчбокс с куриными кусочками",
+                    "description": "Горячий сытный обед из нежных куриных кусочков, картофеля из печи и сырного соуса",
+                    "size": "Большая порция",
+                    "price": 166,
+                    "image": "lunch_box",
+                    "weight": "200 г",
+                    "nutrients": [
+                        {
+                            "name": "Пищевая ценность",
+                            "value": "269,4 ккал",
+                        },
+                        {
+                            "name": "Белки",
+                            "value": "14,5 г",
+                        },
+                        {
+                            "name": "Жиры",
+                            "value": "13,3 г",
+                        },
+                        {
+                            "name": "Углеводы",
+                            "value": "15,9 г",
+                        },
+                    ]
+                }
+            ]
+        },
+        {
+            "categoryId": 2,
+            "products": [
+                {
+                    "id": 401,
+                    "name": "Красный бархат",
+                    "description": "Красный Бархат - это сладость и, конечно же, удовольствие, но не только вкусовое, но и визуальное.",
+                    "size": "1 шт",
+                    "price": 55,
+                    "image": "red_velvet",
+                    "nutrients": [
+                        {
+                            "name": "Пищевая ценность",
+                            "value": "235,6 ккал",
+                        },
+                        {
+                            "name": "Белки",
+                            "value": "15,5 г",
+                        },
+                        {
+                            "name": "Жиры",
+                            "value": "12,3 г",
+                        },
+                        {
+                            "name": "Углеводы",
+                            "value": "15,9 г",
+                        },
+                    ]
+                },
+                {
+                    "id": 402,
+                    "name": "Чизкейк Нью-Йорк",
+                    "description": "Мы перепробовали тысячу десертов и наконец нашли любимца гостей — нежнейший творожный чизкейк",
+                    "size": "1 шт",
+                    "price": 75,
+                    "image": "cheesecake",
+                    "nutrients": [
+                        {
+                            "name": "Пищевая ценность",
+                            "value": "225,6 ккал",
+                        },
+                        {
+                            "name": "Белки",
+                            "value": "15,5 г",
+                        },
+                        {
+                            "name": "Жиры",
+                            "value": "12,3 г",
+                        },
+                        {
+                            "name": "Углеводы",
+                            "value": "15,9 г",
+                        },
+                    ]
+                },
+                {
+                    "id": 403,
+                    "name": "Фондан",
+                    "description": "Четверо из пяти гостей говорят «Oh la la!», когда едят этот французский десерт с хрустящей корочкой и топленой шоколадной начинкой",
+                    "size": "1 шт",
+                    "price": 85,
+                    "image": "fondan",
+                    "nutrients": [
+                        {
+                            "name": "Пищевая ценность",
+                            "value": "330,6 ккал",
+                        },
+                        {
+                            "name": "Белки",
+                            "value": "17,5 г",
+                        },
+                        {
+                            "name": "Жиры",
+                            "value": "17,3 г",
+                        },
+                        {
+                            "name": "Углеводы",
+                            "value": "17,9 г",
+                        },
+                    ]
+                },
+                {
+                    "id": 404,
+                    "name": "Рулетики с брусникой",
+                    "description": "Это задорные сладкие рулетики, в которых закрутился микс из натуральной брусники и сгущенного молока",
+                    "size": "16 шт",
+                    "price": 95,
+                    "image": "rolls_cranberries",
+                    "nutrients": [
+                        {
+                            "name": "Пищевая ценность",
+                            "value": "324,6 ккал",
+                        },
+                        {
+                            "name": "Белки",
+                            "value": "13,5 г",
+                        },
+                        {
+                            "name": "Жиры",
+                            "value": "13,3 г",
+                        },
+                        {
+                            "name": "Углеводы",
+                            "value": "15,9 г",
+                        },
+                    ]
+                },
+                {
+                    "id": 405,
+                    "name": "Рулетики с корицей",
+                    "description": "Десерт, одобренный нашими бабушками. Горячие сладкие рулетики с пряной корицей и сахаром",
+                    "size": "16 шт",
+                    "price": 95,
+                    "image": "rolls_cinnamon",
+                    "nutrients": [
+                        {
+                            "name": "Пищевая ценность",
+                            "value": "354,6 ккал",
+                        },
+                        {
+                            "name": "Белки",
+                            "value": "16,5 г",
+                        },
+                        {
+                            "name": "Жиры",
+                            "value": "16,3 г",
+                        },
+                        {
+                            "name": "Углеводы",
+                            "value": "16,9 г",
+                        },
+                    ]
+                }
+            ]
+        },
+        {
+            "categoryId": 3,
+            "products": [
+                {
+                    "id": 504,
+                    "name": "Молочный коктейль клубничный",
+                    "description": "Ароматный и великолепно взбитый коктейль, приготовленный из высококачественной молочной смеси из клубничного сиропа",
+                    "price": 220,
+                    "image": "milkshake_strawberry",
+                    "weight": "470 мл",
+                    "nutrients": [
+                        {
+                            "name": "Пищевая ценность",
+                            "value": "135,5 ккал",
+                        },
+                        {
+                            "name": "Белки",
+                            "value": "11,5 г",
+                        },
+                        {
+                            "name": "Жиры",
+                            "value": "10,3 г",
+                        },
+                        {
+                            "name": "Углеводы",
+                            "value": "11,9 г",
+                        },
+                    ]
+                },
+                {
+                    "id": 505,
+                    "name": "Молочный коктейль шоколадный",
+                    "description": "Ароматный и великолепно взбитый коктейль, приготовленный из высококачественной молочной смеси из шоколадного сиропа",
+                    "size": "1 шт",
+                    "price": 220,
+                    "image": "milkshake_chocolate",
+                    "weight": "470 мл",
+                    "nutrients": [
+                        {
+                            "name": "Пищевая ценность",
+                            "value": "133,5 ккал",
+                        },
+                        {
+                            "name": "Белки",
+                            "value": "11,5 г",
+                        },
+                        {
+                            "name": "Жиры",
+                            "value": "10,3 г",
+                        },
+                        {
+                            "name": "Углеводы",
+                            "value": "11,9 г",
+                        },
+                    ]
+                },
+                {
+                    "id": 506,
+                    "name": "Молочный коктейль ванильный",
+                    "description": "Ароматный и великолепно взбитый коктейль, приготовленный из высококачественной молочной смеси и ванильного сиропа",
+                    "size": "1 шт",
+                    "price": 220,
+                    "image": "milkshake_vanilla",
+                    "weight": "470 мл",
+                    "nutrients": [
+                        {
+                            "name": "Пищевая ценность",
+                            "value": "130,5 ккал",
+                        },
+                        {
+                            "name": "Белки",
+                            "value": "11,5 г",
+                        },
+                        {
+                            "name": "Жиры",
+                            "value": "10,3 г",
+                        },
+                        {
+                            "name": "Углеводы",
+                            "value": "11,9 г",
+                        },
+                    ]
+                }
+            ]
+        },
+        {
+            "categoryId": 4,
+            "products": [
+                {
+                    "id": 501,
+                    "name": "Coca-Cola",
+                    "description": "Прохладительный газированный напиток Coca-Cola",
+                    "size": "1 шт",
+                    "price": 120,
+                    "image": "coca-cola",
+                    "weight": "500 мл"
+                },
+                {
+                    "id": 502,
+                    "name": "Sprite",
+                    "description": "Прохладительный газированный напиток Sprite",
+                    "size": "1 шт",
+                    "price": 120,
+                    "image": "sprite",
+                    "weight": "500 мл"
+                },
+                {
+                    "id": 503,
+                    "name": "Fanta",
+                    "description": "Прохладительный газированный напиток Fanta",
+                    "size": "1 шт",
+                    "price": 120,
+                    "image": "fanta",
+                    "weight": "500 мл"
+                }
+            ]
+        },
+        {
+            "categoryId": 5,
+            "products": [
+                {
+                    "id": 601,
+                    "name": "Кетчуп",
+                    "description": "Томатный соус для горячих закусок",
+                    "size": "1 шт",
+                    "price": 55,
+                    "image": "ketchup_sauce",
+                    "weight": "25 г",
+                    "nutrients": [
+                        {
+                            "name": "Пищевая ценность",
+                            "value": "311,4 ккал",
+                        },
+                        {
+                            "name": "Белки",
+                            "value": "11,5 г",
+                        },
+                        {
+                            "name": "Жиры",
+                            "value": "12,3 г",
+                        },
+                        {
+                            "name": "Углеводы",
+                            "value": "26,3 г",
+                        },
+                    ]
+                },
+                {
+                    "id": 602,
+                    "name": "Сырный соус",
+                    "description": "Нежный соус со вкусом расплавленного сыра для бортиков пиццы и горячих закусок",
+                    "size": "1 шт",
+                    "price": 55,
+                    "image": "cheese_sauce",
+                    "weight": "25 г",
+                    "nutrients": [
+                        {
+                            "name": "Пищевая ценность",
+                            "value": "315,4 ккал",
+                        },
+                        {
+                            "name": "Белки",
+                            "value": "11,5 г",
+                        },
+                        {
+                            "name": "Жиры",
+                            "value": "22,3 г",
+                        },
+                        {
+                            "name": "Углеводы",
+                            "value": "26,3 г",
+                        },
+                    ]
+                },
+                {
+                    "id": 603,
+                    "name": "Соус Кисло-сладкий",
+                    "description": "Соус кисло-сладкий для бортиков пиццы и горячих закусок",
+                    "size": "1 шт",
+                    "price": 55,
+                    "image": "sweet_sour_sauce",
+                    "weight": "25 г",
+                    "nutrients": [
+                        {
+                            "name": "Пищевая ценность",
+                            "value": "330,4 ккал",
+                        },
+                        {
+                            "name": "Белки",
+                            "value": "31,5 г",
+                        },
+                        {
+                            "name": "Жиры",
+                            "value": "12,3 г",
+                        },
+                        {
+                            "name": "Углеводы",
+                            "value": "26,3 г",
+                        },
+                    ]
+                },
+                {
+                    "id": 604,
+                    "name": "Чесночный соус",
+                    "description": "Соус с чесночным вкусом для бортиков пиццы и горячих закусок",
+                    "size": "1 шт",
+                    "price": 55,
+                    "image": "garlic_sauce",
+                    "weight": "25 г",
+                    "nutrients": [
+                        {
+                            "name": "Пищевая ценность",
+                            "value": "335,2 ккал",
+                        },
+                        {
+                            "name": "Белки",
+                            "value": "31,5 г",
+                        },
+                        {
+                            "name": "Жиры",
+                            "value": "12,3 г",
+                        },
+                        {
+                            "name": "Углеводы",
+                            "value": "26,3 г",
+                        },
+                    ]
+                },
+                {
+                    "id": 605,
+                    "name": "Горчичный соус",
+                    "description": "Пикантный горчичный соус для горячих закусок",
+                    "size": "1 шт",
+                    "price": 55,
+                    "image": "mustard_sauce",
+                    "weight": "25 г",
+                    "nutrients": [
+                        {
+                            "name": "Пищевая ценность",
+                            "value": "320,1 ккал",
+                        },
+                        {
+                            "name": "Белки",
+                            "value": "12,5 г",
+                        },
+                        {
+                            "name": "Жиры",
+                            "value": "31,3 г",
+                        },
+                        {
+                            "name": "Углеводы",
+                            "value": "25,9 г",
+                        },
+                    ]
+                },
+                {
+                    "id": 606,
+                    "name": "Барбекю соус",
+                    "description": "BBQ соус соус для горячих закусок",
+                    "size": "1 шт",
+                    "price": 55,
+                    "image": "bbq_sauce",
+                    "weight": "25 г",
+                    "nutrients": [
+                        {
+                            "name": "Пищевая ценность",
+                            "value": "330,1 ккал",
+                        },
+                        {
+                            "name": "Белки",
+                            "value": "12,5 г",
+                        },
+                        {
+                            "name": "Жиры",
+                            "value": "31,3 г",
+                        },
+                        {
+                            "name": "Углеводы",
+                            "value": "25,9 г",
+                        },
+                    ]
+                }
+            ]
+        }
+    ]
+}
