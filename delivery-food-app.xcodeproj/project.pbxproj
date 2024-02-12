@@ -295,7 +295,7 @@
 			children = (
 				4444301129AE220F007BF7A4 /* App */,
 				4444302329AE284C007BF7A4 /* Navigation */,
-				4444301529AE2472007BF7A4 /* Components */,
+				4444301529AE2472007BF7A4 /* UI */,
 				4444301029AE2207007BF7A4 /* Screens */,
 				4429235429E86E6E008CAA1D /* Network */,
 				4489304429BE34E8000C2FA8 /* Models */,
@@ -358,14 +358,14 @@
 			path = App;
 			sourceTree = "<group>";
 		};
-		4444301529AE2472007BF7A4 /* Components */ = {
+		4444301529AE2472007BF7A4 /* UI */ = {
 			isa = PBXGroup;
 			children = (
 				4403039329CDAA9400753B6A /* CloseButton.swift */,
 				441145C229E2BD59001EA3C4 /* TextLabel.swift */,
 				44B9417129E4246F00AAD467 /* SeparatorView.swift */,
 			);
-			path = Components;
+			path = UI;
 			sourceTree = "<group>";
 		};
 		4444301629AE24AB007BF7A4 /* Services */ = {

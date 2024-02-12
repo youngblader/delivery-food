@@ -7,7 +7,7 @@
 
 import UIKit
 
-enum colorStyle {
+enum ColorStyle {
     case black
     case gray
     case lightGray
@@ -19,14 +19,14 @@ enum colorStyle {
 }
 
 final class TextLabel: UILabel {
-    public private(set) var textLabel: String
-    public private(set) var color: colorStyle
-    public private(set) var weight: UIFont.Weight
-    public private(set) var size: CGFloat
-    public private(set) var aligment: NSTextAlignment
-    public private(set) var linesNumber: Int
+    private var textLabel: String
+    private var color: ColorStyle
+    private var weight: UIFont.Weight
+    private var size: CGFloat
+    private var aligment: NSTextAlignment
+    private var linesNumber: Int
     
-    init(label: String = "", size: CGFloat = 16, color: colorStyle = colorStyle.black, weight: UIFont.Weight = .regular, aligment: NSTextAlignment = .left, linesNumber: Int = 0) {
+    init(label: String = "", size: CGFloat = 16, color: ColorStyle = .black, weight: UIFont.Weight = .regular, aligment: NSTextAlignment = .left, linesNumber: Int = 0) {
         self.textLabel = label
         self.size = size
         self.color = color
@@ -35,7 +35,7 @@ final class TextLabel: UILabel {
         self.linesNumber = linesNumber
         
         super.init(frame: .zero)
-
+        
         self.configureLabel()
         self.configureLabelColor()
     }
