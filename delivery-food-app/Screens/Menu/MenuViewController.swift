@@ -50,19 +50,17 @@ final class MenuViewController: UIViewController {
             self.presentDetailProductScreen(product)
         }
     }
-
+    
     private func fetchData() {
         Task {
             do {
                 async let categoriesRequest = menuProvider.menuService.fetchCategories()
                 async let menuRequest = menuProvider.menuService.fetchMenu()
                 
-                let data: (categories: [Category], menu: [Menu]) = try await (categoriesRequest, menuRequest)
+                let data: MenuData = try await (categoriesRequest, menuRequest)
                 
-                menuView.update(data.categories, data.menu)
-
+                menuView.update(data)
                 self.products = modifiedMenuData(data.menu)
-                
             } catch {
                 print(error)
             }
@@ -75,7 +73,7 @@ final class MenuViewController: UIViewController {
         for item in array {
             products += item.products
         }
-
+        
         return products
     }
     

@@ -15,3 +15,5 @@ struct Menu: Codable {
     let categoryId: Int
     let products: [Product]
 }
+
+typealias MenuData = (categories: [Category], menu: [Menu])

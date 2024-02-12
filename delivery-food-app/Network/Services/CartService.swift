@@ -12,7 +12,9 @@ final class Order {
     
     var totalPrice: Int {
         return products.reduce(0) { acc, curr in
-            let modificatorsPrice = curr.modificators?.modificatorsToAdd?.reduce(0, { result, curr in
+            let modificatorsToAdd = curr.modificators?.modificatorsToAdd
+
+            let modificatorsPrice = modificatorsToAdd?.reduce(0, { result, curr in
                 result + curr.price
             }) ?? 0
 

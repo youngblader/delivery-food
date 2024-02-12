@@ -23,9 +23,8 @@ final class MenuView: UIView {
     }
     
     //MARK: Public update
-    func update(_ categories: [Category], _ menu: [Menu]) {
-        menuTableView.update(menu, categories)
-        menuTableView.reloadData()
+    func update(_ data: MenuData) {
+        menuTableView.update(data)
     }
 }
 

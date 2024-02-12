@@ -36,9 +36,11 @@ final class MenuTableView: UITableView {
     }
 
     //MARK: Public update
-    func update(_ products: [Menu], _ categories: [Category]) {
-        self.menuProducts = products
-        self.categories = categories
+    func update(_ data: MenuData) {
+        self.menuProducts = data.menu
+        self.categories = data.categories
+        
+        self.reloadData()
     }
     
     private func filtredProductsByCategory(_ id: Int) -> [Product] {
