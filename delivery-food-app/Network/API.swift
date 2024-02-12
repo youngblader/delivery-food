@@ -24,6 +24,7 @@ extension API {
             throw NetworkError.invalidURL
         }
         
+        print("URL", url)
         var request = URLRequest(url: url)
         request.httpMethod = endpoint.method.rawValue
         request.allHTTPHeaderFields = endpoint.headers
@@ -44,11 +45,14 @@ extension API {
             
             switch response.statusCode {
             case 200..<299:
-                guard let decodedResponse = try? decoder.decode(responseModel, from: data) else {
+                do {
+                    let decodedResponse = try decoder.decode(responseModel, from: data)
+                    
+                    return decodedResponse
+                } catch {
+                    print("!!!!ERROR", error)
                     throw NetworkError.decode
                 }
-
-                return decodedResponse
             case 401:
                 throw NetworkError.unauthorized
             default:
