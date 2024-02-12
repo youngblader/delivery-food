@@ -25,8 +25,4 @@ extension Endpoint {
     var host: String {
         return "apingweb.com"
     }
-    
-//    var path: String {
-//        return "/api/rest"
-//    }
 }
