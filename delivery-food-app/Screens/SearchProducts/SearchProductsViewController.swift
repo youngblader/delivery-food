@@ -13,7 +13,7 @@ final class SearchProductsViewController: UIViewController {
     
     private var products: [Product] = []
     private var filtredProducts: [Product] = []
-
+    
     // searchController properties
     private var searchBarIsEmpty: Bool {
         guard let text = searchProductsView.searchController.searchBar.text else { return false }
@@ -40,36 +40,36 @@ final class SearchProductsViewController: UIViewController {
         
         searchProductsView.searchController.update(getRandomProductName())
         
-        searchProductsView.searchResultsTableView.onSelectProductTapped = { product in
-            self.presentDetailProduct(product)
+        searchProductsView.searchResultsTableView.onSelectProductTapped = { [weak self] product in
+            self?.presentDetailProduct(product)
         }
         
-        searchProductsView.searchController.onFilterSearchProducts = { searchText in
-            self.filterProductsBySearchText(searchText)
+        searchProductsView.searchController.onFilterSearchProducts = { [weak self] searchText in
+            self?.filterProductsBySearchText(searchText)
         }
         
-        searchProductsView.searchController.onDismissTapped = {
-            self.dismiss()
+        searchProductsView.searchController.onDismissTapped = { [weak self] in
+            self?.dismiss()
         }
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-
+        
         searchProductsView.searchController.isActive = true
     }
     
     init(provider: SearchProductsProvider, products: [Product]) {
         self.searchProductsProvider = provider
         self.products = products
-
+        
         super.init(nibName: nil, bundle: nil)
     }
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-
+    
     private func filterProductsBySearchText(_ searchText: String) {
         self.filtredProducts = self.products.filter({ product in
             return product.name.lowercased().uppercased().prefix(searchText.count) == searchText.lowercased().uppercased()
@@ -80,7 +80,7 @@ final class SearchProductsViewController: UIViewController {
     
     private func getRandomProductName() -> String {
         guard let product = products.randomElement() else { return "" }
-
+        
         return product.name
     }
     

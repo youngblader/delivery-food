@@ -36,16 +36,16 @@ final class CartViewController: UIViewController {
         super.viewDidLoad()
         setup()
         
-        cartView.emptyCartView.onRedirectTapped = {
-            self.tabBarController?.selectedIndex = 0
+        cartView.emptyCartView.onRedirectTapped = { [weak self] in
+            self?.tabBarController?.selectedIndex = 0
         }
         
-        cartView.onAcceptOrderTapped = {
-            self.createOrder()
+        cartView.onAcceptOrderTapped = { [weak self] in
+            self?.createOrder()
         }
         
-        cartView.onUpdateProducts = { products in
-            self.cartProvider.menuArchiver.save(products)
+        cartView.onUpdateProducts = { [weak self] products in
+            self?.cartProvider.menuArchiver.save(products)
         }
     }
     

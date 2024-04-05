@@ -26,7 +26,7 @@ final class DetailProductViewController: UINavigationController {
     init(provider: MenuProvider, product: Product) {
         self.menuProvider = provider
         self.selectedProduct = product
-
+        
         super.init(nibName: nil, bundle: nil)
     }
     
@@ -36,17 +36,17 @@ final class DetailProductViewController: UINavigationController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         detailProductView.onDismissController = {
             self.dismiss()
         }
         
-        detailProductView.onUpdateProducts = { products in
-            self.menuProvider.menuArhiver.save(products)
+        detailProductView.onUpdateProducts = { [weak self] products in
+            self?.menuProvider.menuArhiver.save(products)
         }
-
-        detailProductView.onPresentNutrientsProductView = {
-            self.presentNutrientsProductView()
+        
+        detailProductView.onPresentNutrientsProductView = { [weak self] in
+            self?.presentNutrientsProductView()
         }
         
         if let product = (selectedProduct) {

@@ -42,6 +42,10 @@ final class DetailBenefitViewController: UIViewController {
         }
     }
     
+    deinit {
+        print(#function)
+    }
+    
     private func dismiss() {
         benefitProvider.router.dismiss(self)
     }

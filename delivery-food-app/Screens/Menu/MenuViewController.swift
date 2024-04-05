@@ -46,8 +46,8 @@ final class MenuViewController: UIViewController {
         fetchData()
         updateCartBadge()
         
-        menuView.menuTableView.onSelectedProduct = { product in
-            self.presentDetailProductScreen(product)
+        menuView.menuTableView.onSelectedProduct = { [weak self] product in
+            self?.presentDetailProductScreen(product)
         }
     }
     

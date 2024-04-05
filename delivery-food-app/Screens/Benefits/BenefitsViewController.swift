@@ -34,8 +34,8 @@ final class BenefitsViewController: UIViewController {
         setup()
         fetchBenefits()
         
-        benefitsView.benefitsCollectionView.onSelectedBenefit = { benefit in
-            self.showDetailBenefit(benefit)
+        benefitsView.benefitsCollectionView.onSelectedBenefit = { [weak self] benefit in
+            self?.showDetailBenefit(benefit)
         }
     }
     
